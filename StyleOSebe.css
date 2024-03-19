@@ -61,7 +61,7 @@ footer
     color:white;
 }
 footer>ul
-{    font-size: 28px;
+{   font-size: 2vw;
     font-family: sans-serif;
     list-style-type: none;
 }
