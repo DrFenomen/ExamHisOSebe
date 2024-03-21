@@ -9,6 +9,7 @@ body
 {
     nav
     {
+        animation: nav 1s;
         position:fixed ;
         display: grid;
         grid-template-columns: 12.5vw 25vw 25vw 25vw 12.5vw;
@@ -22,6 +23,7 @@ body
     .Nav_Item2,
     .Nav_Item3
     {
+        animation: nav 1s;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -34,6 +36,7 @@ body
     }
     .Nav_Selection
     {
+        animation: nav 1s;
         font-family: "Yu Gothic UI Light";
         width:10vw;
         height:4.5vh;
@@ -46,6 +49,7 @@ body
 {
     nav
     {
+        animation: nav 1s;
         position:fixed ;
         display: grid;
         grid-template-columns: 25vw 25vw 25vw 25vw ;
@@ -59,6 +63,7 @@ body
     .Nav_Item2,
     .Nav_Item3
     {
+        animation: nav 1s;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -70,14 +75,18 @@ body
         color:white;
     }
     .Nav_Selection
-     {
-         font-family: "Yu Gothic UI Light";
-         width:25vw;
-         height:3vh;
-         align-content: center;
-         background: #D4DBE2;
-         font-size: 2.5vw;
-     }
+    {
+        animation: nav 1s;
+        font-family: "Yu Gothic UI Light";
+        width:25vw;
+        height:3vh;
+        align-content: center;
+        background: #D4DBE2;
+        font-size: 2.5vw;
+    }
+}
+@keyframes nav {
+    from{margin-top:-10vw;}
 }
 .Nav_Item1:active,
 .Nav_Item2:active
