@@ -36,13 +36,22 @@ body
     }
     .Nav_Selection
     {
+        display: flex;
         animation: nav 1s;
         font-family: "Yu Gothic UI Light";
-        width:10vw;
+        width:12vw;
         height:4.5vh;
-        align-content: center;
+        justify-content: center;
+        align-items: center;
         background: #D4DBE2;
+        border-radius: 5vw;
+
+    }
+    .Nav_Selection>a
+    {
         font-size: 1vw;
+        text-decoration: none;
+        color: black;
     }
 }
 @media(max-width: 426px)
@@ -52,7 +61,7 @@ body
         animation: nav 1s;
         position:fixed ;
         display: grid;
-        grid-template-columns: 25vw 25vw 25vw 25vw ;
+        grid-template-columns: 20vw 26vw 26vw 26vw ;
         width:100%;
         align-items: center;
         height:6.5vh;
@@ -73,16 +82,26 @@ body
         font-size:2.5vw;
         text-decoration: none;
         color:white;
+
     }
+
     .Nav_Selection
     {
+        display: flex;
         animation: nav 1s;
         font-family: "Yu Gothic UI Light";
-        width:25vw;
+        width:20vw;
         height:3vh;
-        align-content: center;
+        justify-content: center;
+        align-items: center;
         background: #D4DBE2;
-        font-size: 2.5vw;
+        border-radius: 5vw;
+    }
+    .Nav_Selection>a
+    {
+        font-size: 2vw;
+        text-decoration: none;
+        color: black;
     }
 }
 @keyframes nav {
